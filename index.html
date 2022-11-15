@@ -1,0 +1,99 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Заголовок</title>
+</head>
+<body>
+
+<main class="content">
+  <div class="tabs" data-tabs>
+    <div class="tabs__nav" data-tabs-nav>
+      <div class="tab-item current" style="order: 0" data-tabs-nav-item>
+        <h2 class="tab-header" data-tabs-nav-toggle>Горный велосипед</h2>
+      </div>
+      <div class="tab-item" style="order: 2" data-tabs-nav-item>
+        <h2 class="tab-header" data-tabs-nav-toggle>Женский велосипед</h2>
+      </div>
+    </div>
+    <div class="tab-content" data-tabs-content>
+      <div class="tab-content__item current" style="order: 1" data-tabs-content-item>
+        <div class="card">
+          <div class="card__description">
+            <picture class="card__picture">
+              <img src="./images/bike-1.png" alt="" class="card__image">
+            </picture>
+            <div class="card__text">
+              <h1>Велосипед STELS Navigator 510 HD 26 2022</h1>
+              <p>Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой
+                размер рамы расчитан на рост от 135 до 165 см.</p>
+              <p>Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования
+                велосипеда подростками.</p>
+            </div>
+          </div>
+          <div class="card-chars">
+            <h3>Характеристики</h3>
+            <ol class="card-chars__list">
+              <li><span>Двойной обод</span></li>
+              <li><span>Алюминиевый сплав</span></li>
+              <li><span>Колеса диаметром 26 дюймов</span></li>
+              <li><span>Покрышки 26х1,95"</span></li>
+            </ol>
+          </div>
+          <div class="card-chars-add">
+            <h3>Добавить характеристику</h3>
+            <form action="" class="form">
+              <div class="form-row">
+                <input type="text" class="input" placeholder="Алюминиевый сплав">
+                <button type="button" class="button js-add-char">Добавить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content__item" style="order: 3" data-tabs-content-item>
+        <div class="card">
+          <div class="card__description">
+            <picture class="card__picture">
+              <img src="./images/bike-2.png" alt="" class="card__image">
+            </picture>
+            <div class="card__text">
+              <h1>Велосипед SCHWINN Traveler women 2022</h1>
+              <p>Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его
+                перемещать.</p>
+              <p>На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает
+                отличную управляемость. Подходит для катания по асфальтированным поверхностям.</p>
+            </div>
+          </div>
+          <div class="card-chars">
+            <h3>Характеристики</h3>
+            <ul class="card-chars__list">
+              <li><span>Стальная рама</span></li>
+              <li><span>Жесткая вилка</span></li>
+              <li><span>Колеса диаметром 24 дюймов</span></li>
+              <li><span>7 скоростей</span></li>
+            </ul>
+          </div>
+          <div class="card-chars-add">
+            <h3>Добавить характеристику</h3>
+            <form action="" class="form">
+              <div class="form-row">
+                <input type="text" class="input" placeholder="Алюминиевый сплав">
+                <button type="button" class="button js-add-char">Добавить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
